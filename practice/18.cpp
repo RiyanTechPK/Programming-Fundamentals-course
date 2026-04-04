@@ -1,19 +1,8 @@
 #include <iostream>
 using namespace std;
 main()
-
 {
-    for (int p = 0; p < 1; p++)
-    {
-        cout << "* ";
-    }
-    cout << endl;
-    for (int l = 0; l < 2; l++)
-    {
-        cout << "* ";
-    }
-    cout << endl;
-    for (int m = 0; m < 3; m++)
+    for (int j = 0; j < 5; j++)
     {
         cout << "* ";
     }
@@ -23,9 +12,21 @@ main()
         cout << "* ";
     }
     cout << endl;
-    for (int j = 0; j < 5; j++)
+
+    for (int m = 0; m < 3; m++)
     {
         cout << "* ";
     }
     cout << endl;
+    for (int l = 0; l < 2; l++)
+    {
+        cout << "* ";
+    }
+    cout << endl;
+
+    for (int p = 0; p < 1; p++)
+    {
+        cout << "* ";
+        cout << endl;
+    }
 }
