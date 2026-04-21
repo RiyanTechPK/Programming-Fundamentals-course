@@ -237,13 +237,13 @@ main()
                                 cout << "\nEnter your name: ";
                                 cin >> bus1name[seatno];
                                 bus1seat[seatno] = seatno;
-                                cout << "Seat booked successfully ";
+                                cout << "Seat booked successfully \n";
 
                                 seatavailability1[seatno] = 1;
                             }
                             else
                             {
-                                cout << "Seat already booked ";
+                                cout << "Seat already booked\n ";
                             }
                             cout << "Press any key to continue ";
                             getch();
@@ -267,13 +267,13 @@ main()
                                 cout << "\nEnter your name: ";
                                 cin >> bus2name[seatno];
                                 bus2seat[seatno] = seatno;
-                                cout << "Seat booked successfully ";
+                                cout << "Seat booked successfully \n";
 
                                 seatavailability2[seatno] = 1;
                             }
                             else
                             {
-                                cout << "Seat already booked ";
+                                cout << "Seat already booked \n";
                             }
                             cout << "Press any key to continue ";
                             getch();
@@ -297,13 +297,13 @@ main()
                                 cout << "\nEnter your name: ";
                                 cin >> bus3name[seatno];
                                 bus3seat[seatno] = seatno;
-                                cout << "Seat booked successfully ";
+                                cout << "Seat booked successfully\n ";
 
                                 seatavailability3[seatno] = 1;
                             }
                             else
                             {
-                                cout << "Seat already booked ";
+                                cout << "Seat already booked\n ";
                             }
                             cout << "Press any key to continue ";
                             getch();
@@ -326,13 +326,13 @@ main()
                                 cout << "Enter your name: ";
                                 cin >> bus4name[seatno];
                                 bus4seat[seatno] = seatno;
-                                cout << "Seat booked successfully ";
+                                cout << "Seat booked successfully\n ";
 
                                 seatavailability4[seatno] = 1;
                             }
                             else
                             {
-                                cout << "Seat already booked ";
+                                cout << "Seat already booked\n ";
                             }
                             cout << "Press any key to continue ";
                             getch();
@@ -356,13 +356,13 @@ main()
                                 cout << "Enter your name: ";
                                 cin >> bus5name[seatno];
                                 bus5seat[seatno] = seatno;
-                                cout << "Seat booked successfully ";
+                                cout << "Seat booked successfully \n";
 
                                 seatavailability5[seatno] = 1;
                             }
                             else
                             {
-                                cout << "Seat already booked ";
+                                cout << "Seat already booked\n ";
                             }
                             cout << "Press any key to continue ";
                             getch();
@@ -385,13 +385,13 @@ main()
                                 cout << "Enter your name: ";
                                 cin >> bus6name[seatno];
                                 bus6seat[seatno] = seatno;
-                                cout << "Seat booked successfully ";
+                                cout << "Seat booked successfully \n";
 
                                 seatavailability6[seatno] = 1;
                             }
                             else
                             {
-                                cout << "Seat already booked ";
+                                cout << "Seat already booked\n ";
                             }
                             cout << "Press any key to continue ";
                             getch();
@@ -428,7 +428,7 @@ main()
                             cin >> num1;
                             bus1seat[num1] = 0;
                             seatavailability1[num1] = 0;
-                            cout << "Seat cancelled successfully";
+                            cout << "Seat cancelled successfully\n";
                             cout << "Press any key to continue ";
                             getch();
                         }
@@ -440,7 +440,7 @@ main()
                             cin >> num2;
                             bus1seat[num2] = 0;
                             seatavailability1[num2] = 0;
-                            cout << "Seat cancelled successfully";
+                            cout << "Seat cancelled successfully\n";
                             cout << "Press any key to continue ";
                             getch();
                         }
@@ -452,7 +452,7 @@ main()
                             cin >> num3;
                             bus1seat[num3] = 0;
                             seatavailability1[num3] = 0;
-                            cout << "Seat cancelled successfully";
+                            cout << "Seat cancelled successfully\n";
                             cout << "Press any key to continue ";
                             getch();
                         }
@@ -464,7 +464,7 @@ main()
                             cin >> num4;
                             bus1seat[num4] = 0;
                             seatavailability1[num4] = 0;
-                            cout << "Seat cancelled successfully";
+                            cout << "Seat cancelled successfully\n";
                             cout << "Press any key to continue ";
                             getch();
                         }
@@ -476,7 +476,7 @@ main()
                             cin >> num5;
                             bus1seat[num5] = 0;
                             seatavailability1[num5] = 0;
-                            cout << "Seat cancelled successfully";
+                            cout << "Seat cancelled successfully\n";
                             cout << "Press any key to continue ";
                             getch();
                         }
@@ -488,7 +488,7 @@ main()
                             cin >> num6;
                             bus1seat[num6] = 0;
                             seatavailability1[num6] = 0;
-                            cout << "Seat cancelled successfully";
+                            cout << "Seat cancelled successfully\n";
 
                             cout << "Press any key to continue ";
                             getch();
