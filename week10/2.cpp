@@ -7,7 +7,7 @@ int main()
    
     cout<<"name :";
 
-     Sleep(10);
+     Sleep(200);
     
  }
  return 0;
