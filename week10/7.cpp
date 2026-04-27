@@ -1,18 +1,23 @@
-#include<iostream>
-#include<cmath>
+#include <iostream>
 using namespace std;
-float height(float base, float degreeAngle);
-
+int add(int a, int b);
 int main()
-{float base1, degree;
-    cout<<"enter base ";
-    cin>>base1;
-    cout<<"Enter angle in degree ";
-    cin>>degree;
-  cout<<"height is "<<height(base1, degree);
-  return 0;
+
+{
+    for (int i = 0; i < 5; i++)
+    {
+        cout << " enter first number ";
+        int num1;
+        cin >> num1;
+        cout << " enter second number ";
+        int num2;
+        cin >> num2;
+        cout << "sum is " << add(num1, num2) << endl;
+    }
+    return 0;
 }
-float height(float base, float degreeAngle){
-    float h=base*tan(degreeAngle/57.3);
-    return h;
+int add(int a, int b)
+{
+
+    return a + b;
 }
