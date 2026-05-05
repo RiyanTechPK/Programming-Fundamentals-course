@@ -8,8 +8,8 @@
       "args": [],
       "stopAtEntry": false,
       "externalConsole": true,
-      "cwd": "d:/1st semester/PF lab/1stSemesterProject",
-      "program": "d:/1st semester/PF lab/1stSemesterProject/build/Debug/outDebug",
+      "cwd": "d:/1st semester/PF lab/week11",
+      "program": "d:/1st semester/PF lab/week11/build/Debug/outDebug",
       "MIMode": "gdb",
       "miDebuggerPath": "gdb",
       "setupCommands": [
