@@ -65,21 +65,53 @@ int main()
 
             if (username == "alfareed" && password == 1437)
             {
-                int opt;
-                cout << "Select Bus (1-6): ";
-                cin >> opt;
+                int choice;
+                cout << "1. Seat counter \n";
+                "2.Search Bus ";
+                cin >> choice;
+                if (choice == 1)
+                {
+                    cout << "Total seats " << SIZE;
+                    cout << "Booked seats " << bookSeat;
+                }
+                else if (choice == 2)
+                {
 
-                if (opt == 1) display(bus1seat, bus1name, seatavailability1);
-                else if (opt == 2) display(bus2seat, bus2name, seatavailability2);
-                else if (opt == 3) display(bus3seat, bus3name, seatavailability3);
-                else if (opt == 4) display(bus4seat, bus4name, seatavailability4);
-                else if (opt == 5) display(bus5seat, bus5name, seatavailability5);
-                else if (opt == 6) display(bus6seat, bus6name, seatavailability6);
+                    int opt;
+                    cout << "Select Bus (1-6): ";
+                    cin >> opt;
 
-                getch();
+                    if (opt == 1)
+                    {
+                        display(bus1seat, bus1name, seatavailability1);
+                    }
+
+                    else if (opt == 2)
+                    {
+                        display(bus2seat, bus2name, seatavailability2);
+                    }
+                    else if (opt == 3)
+                    {
+                        display(bus3seat, bus3name, seatavailability3);
+                    }
+                    else if (opt == 4)
+                    {
+                        display(bus4seat, bus4name, seatavailability4);
+                    }
+                    else if (opt == 5)
+                    {
+                        display(bus5seat, bus5name, seatavailability5);
+                    }
+                    else if (opt == 6)
+                    {
+                        display(bus6seat, bus6name, seatavailability6);
+                    }
+
+                    getch();
+                }
+                else
+                    cout << "Wrong credentials\n";
             }
-            else
-                cout << "Wrong credentials\n";
         }
 
         // -------- PASSENGER --------
@@ -95,21 +127,57 @@ int main()
 
             if (option == 1)
             {
-                if (opt == 1) bookSeat(bus1seat, bus1name, seatavailability1);
-                else if (opt == 2) bookSeat(bus2seat, bus2name, seatavailability2);
-                else if (opt == 3) bookSeat(bus3seat, bus3name, seatavailability3);
-                else if (opt == 4) bookSeat(bus4seat, bus4name, seatavailability4);
-                else if (opt == 5) bookSeat(bus5seat, bus5name, seatavailability5);
-                else if (opt == 6) bookSeat(bus6seat, bus6name, seatavailability6);
+                if (opt == 1)
+                {
+                    bookSeat(bus1seat, bus1name, seatavailability1);
+                }
+                else if (opt == 2)
+                {
+                    bookSeat(bus2seat, bus2name, seatavailability2);
+                }
+                else if (opt == 3)
+                {
+                    bookSeat(bus3seat, bus3name, seatavailability3);
+                }
+                else if (opt == 4)
+                {
+                    bookSeat(bus4seat, bus4name, seatavailability4);
+                }
+                else if (opt == 5)
+                {
+                    bookSeat(bus5seat, bus5name, seatavailability5);
+                }
+                else if (opt == 6)
+                {
+                    bookSeat(bus6seat, bus6name, seatavailability6);
+                }
             }
             else if (option == 2)
             {
-                if (opt == 1) cancelSeat(bus1seat, seatavailability1);
-                else if (opt == 2) cancelSeat(bus2seat, seatavailability2);
-                else if (opt == 3) cancelSeat(bus3seat, seatavailability3);
-                else if (opt == 4) cancelSeat(bus4seat, seatavailability4);
-                else if (opt == 5) cancelSeat(bus5seat, seatavailability5);
-                else if (opt == 6) cancelSeat(bus6seat, seatavailability6);
+                if (opt == 1)
+                {
+                    cancelSeat(bus1seat, seatavailability1);
+                }
+                else if (opt == 2)
+                {
+                    cancelSeat(bus2seat, seatavailability2);
+                }
+                else if (opt == 3)
+                {
+                    cancelSeat(bus3seat, seatavailability3);
+                }
+                else if (opt == 4)
+                {
+                    cancelSeat(bus4seat, seatavailability4);
+                }
+                else if (opt == 5)
+                {
+                    cancelSeat(bus5seat, seatavailability5);
+                }
+                else if (opt == 6)
+                {
+                    cancelSeat(bus6seat, seatavailability6);
+                }
             }
 
             getch();
