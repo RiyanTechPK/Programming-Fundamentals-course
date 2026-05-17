@@ -375,7 +375,7 @@ void saveDataintofiles(int avail[], string name[], string filename, int seatno)
     file.close();
 }
 
-// void loadData(int avail[], string name[], string filename, int seatno)void loadData(int avail[], string names[], string filename)
+void loadData(int avail[], string names[], string filename)
 {
     fstream file(filename, ios::in);
 
